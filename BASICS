@@ -1,0 +1,59 @@
+a=5
+a
+print(class(a))
+
+b="Chrisanne"
+b
+print(class(b))
+
+#Comment here
+
+c=1+5i
+c
+print(class(c))
+
+L=TRUE
+L
+print(class(L))
+
+data("mtcars")
+head("mtcars")
+
+v1=c(1,2,3)#for vectors you must put c before brackett
+v1
+print (class(v1))
+
+call("Vector v1 is ",v1)#not necessary to write Vector
+
+a1=array(1:24)
+a1
+
+a2=array(1:24,c(4,3,2))#3 represnts colums,4 represents row,2 represents number of boxes
+a2
+
+m1=matrix(1:6,nrow = 3,ncol = 2)#BY COLUMN WISE DEFAULT
+m1
+
+m2=matrix(5:10,nrow = 2,ncol = 2,byrow = T)#by row wise 
+m2
+row.names(m2)=c("A","B","C")
+
+m1+m2#to add
+
+
+m1%*%m2#to multiply
+
+l1=list(c(1,2,3),20.48,T,1+4i)
+l1
+
+v1=c(1,2,3)
+v2=
+  
+  2+3
+  2*3
+  
+  x=2
+  y=6
+  x>y
+  
+  
